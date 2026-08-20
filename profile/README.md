@@ -32,6 +32,7 @@ and CLI.
 
 <a href="https://github.com/openllmsh/protocol"><img alt="Protocol — MIT contracts" src="https://img.shields.io/badge/Protocol-MIT%20%C2%B7%20contracts-2ea44f?style=for-the-badge"></a>
 <a href="https://github.com/openllmsh/wire"><img alt="Wire — BUSL-1.1 adapters" src="https://img.shields.io/badge/Wire-BUSL--1.1%20%C2%B7%20adapters-8b5cf6?style=for-the-badge"></a>
+<a href="https://github.com/openllmsh/tunnel"><img alt="Tunnel — BUSL-1.1 binary mux" src="https://img.shields.io/badge/Tunnel-BUSL--1.1%20%C2%B7%20binary%20mux-b45309?style=for-the-badge"></a>
 <a href="https://github.com/openllmsh/daemon"><img alt="Daemon — BUSL-1.1 local runtime" src="https://img.shields.io/badge/Daemon-BUSL--1.1%20%C2%B7%20local%20runtime-0f766e?style=for-the-badge"></a>
 <a href="https://github.com/openllmsh/cli"><img alt="CLI — BUSL-1.1 openllmc" src="https://img.shields.io/badge/CLI-BUSL--1.1%20%C2%B7%20openllmc-2563eb?style=for-the-badge"></a>
 <a href="https://github.com/openllmsh/registry"><img alt="Registry — read-only bundles" src="https://img.shields.io/badge/Registry-read--only%20%C2%B7%20bundles-475569?style=for-the-badge"></a>
@@ -40,6 +41,7 @@ and CLI.
 
 - **[Protocol](https://github.com/openllmsh/protocol)** — runtime-validated contracts shared by OpenLLM clients.
 - **[Wire](https://github.com/openllmsh/wire)** — pure transforms across Anthropic, OpenAI, and Responses wire formats.
+- **[Tunnel](https://github.com/openllmsh/tunnel)** — sans-I/O binary mux for consumer ↔ relay ↔ daemon streams.
 - **[Daemon](https://github.com/openllmsh/daemon)** — the local headless runtime for subscription-backed provider CLIs.
 - **[CLI](https://github.com/openllmsh/cli)** — the standalone `openllmc` MCP gateway with semantic search and memory.
 - **[Registry](https://github.com/openllmsh/registry)** — reproducible setup, plugin, and integration bundles.
